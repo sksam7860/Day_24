@@ -20,4 +20,8 @@ def sayed(a,b,c):
             total=a+b-c
             print("total",total)
             return total
-sayed(22,44,35)        
+    elif a%2!=0 and b%2==0 and c%2==0:
+          total=a-b+c
+          print("total",total)
+          return total
+sayed(23,34,66)       
